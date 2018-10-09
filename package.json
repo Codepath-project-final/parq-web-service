@@ -1,0 +1,26 @@
+{
+  "name": "parq-web-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Codepath-project-final/parq-web-service.git"
+  },
+  "author": "Sandesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Codepath-project-final/parq-web-service/issues"
+  },
+  "homepage": "https://github.com/Codepath-project-final/parq-web-service#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "encryptionhelper": "0.0.3",
+    "express": "^4.16.3",
+    "mysql": "^2.16.0"
+  }
+}

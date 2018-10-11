@@ -15,7 +15,7 @@ module.exports = (app, con, firstname, lastname, username, email, password, avat
 })
 
 
-con.query("INSERT INTO `users` (`username`, `email`, `passoword`, `avatar`) VALUES ('"+username+ "','" +email + "','"+ password + "','" +avatarUrl "')", function (err, result, fields){
+con.query("INSERT INTO `users` (`username`, `email`, `passoword`, `avatar`) VALUES ('"+username+ "','" +email + "','"+ password + "','" +avatarUrl  + "')", function (err, result, fields){
        
       
       
